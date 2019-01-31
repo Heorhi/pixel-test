@@ -35,7 +35,7 @@
 <!-- Open Graph Metadata -->
   <meta property="og:type" r="website">
   <meta property="product:retailer_item_id" content="<?php echo_param_or_default("retailer_item_id", "id_01"); ?>">
-  <meta property="og:url" content="<?php echo "http://cat-test-sm-px-100.herokuapp.com".$_SERVER['REQUEST_URI']; ?>">
+  <meta property="og:url" content="<?php echo "http://fb-pixel-test.herokuapp.com".$_SERVER['REQUEST_URI']; ?>">
   <meta property="og:title" content="<?php echo_param_or_default("title", "some title"); ?>">
   <meta property="og:description" content="<?php echo_param_or_default("description", "some description"); ?>">
   <meta property="og:image" content="<?php echo_param_or_default("image_url", "https://example.org/image.jpg"); ?>">
