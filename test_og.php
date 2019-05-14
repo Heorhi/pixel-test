@@ -42,6 +42,7 @@
   <meta property="og:image" content="https://example.org/additional_image.jpg">
   <meta property="og:site_name" content="Hero Lightime kolyanich 2">
   <meta property="product:brand" content="<?php echo_param_or_default("brand", "some brand"); ?>">
+  <meta property="product:gender" content="<?php echo_param_or_default("gender", "unisex"); ?>">
   <meta property="product:availability" content="<?php echo_param_or_default("availability", "in stock"); ?>">
   <meta property="product:condition" content="<?php echo_param_or_default("condition", "new"); ?>">
   <meta property="product:price:amount" content="<?php echo_param_or_default("price_amount", "53"); ?>">
