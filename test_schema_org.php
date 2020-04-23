@@ -39,7 +39,7 @@
     <span itemprop="description"><?php echo_param_or_default("description", "some description"); ?></span>
     <span itemprop="brand"><?php echo_param_or_default("brand", "some brand"); ?></span>
     <span itemprop="productID"><?php echo_param_or_default("retailer_item_id", "id_1"); ?></span>
-    <a itemprop="url" href="<?php echo "http://cat-test-sm-px-100.herokuapp.com".$_SERVER['REQUEST_URI']; ?>">url</a>
+    <a itemprop="url" href="<?php echo "https://fb-pixel-test.herokuapp.com/test_schema_org.php".$_SERVER['REQUEST_URI']; ?>">url</a>
     <a itemprop="image" href="<?php echo_param_or_default("image_url", "https://example.org/image.jpg"); ?>">image</a>
     <div itemscope itemtype="http://schema.org/PropertyValue">
       <meta itemprop="propertyID" content="custom_label_0" />
