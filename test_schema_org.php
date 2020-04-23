@@ -35,6 +35,7 @@
 <body>
 <div itemscope itemtype="">
   <div itemscope itemtype="http://schema.org/Product">
+    <span itemprop="name"><?php echo_param_or_default("title", "some title"); ?></span>
     <span itemprop="description"><?php echo_param_or_default("description", "some description"); ?></span>
     <span itemprop="brand"><?php echo_param_or_default("brand", "some brand"); ?></span>
     <span itemprop="productID"><?php echo_param_or_default("retailer_item_id", "id_1"); ?></span>
