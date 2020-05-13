@@ -47,6 +47,7 @@
   <meta property="product:condition" content="<?php echo_param_or_default("condition", "new"); ?>">
   <meta property="product:price:amount" content="<?php echo_param_or_default("price_amount", "53"); ?>">
   <meta property="product:price:currency" content="<?php echo_param_or_default("price_currency", "USD"); ?>">
+  <meta property="product:inventory" content="<?php echo_param_or_default("inventory", "24"); ?>">
   <meta property="product:custom_label_0" content="<?php echo_param_or_default("custom_label_0", "flag_0"); ?>">
   <meta property="product:custom_label_1" content="<?php echo_param_or_default("custom_label_1", "flag_1"); ?>">
 <!-- End Open Graph Metadata -->
