@@ -54,6 +54,7 @@
       <link itemprop="availability" href="http://schema.org/InStock" />
       <meta itemprop="price" content="<?php echo_param_or_default("price_amount", "53"); ?>">
       <meta itemprop="priceCurrency" content="<?php echo_param_or_default("price_currency", "USD"); ?>">
+      <meta itemprop="inventoryLevel" content="<?php echo_param_or_default("inventory", "26"); ?>">
     </div>
   </div>
 </div>
