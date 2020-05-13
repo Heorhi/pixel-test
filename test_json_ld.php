@@ -47,7 +47,8 @@
       "price": "7.99",
       "priceCurrency": "USD",
       "itemCondition": "https://schema.org/NewCondition",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "inventoryLevel": 44
     }
   ],
   "additionalProperty": [{
