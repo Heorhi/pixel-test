@@ -38,8 +38,8 @@
   "productID":"<?php echo_param_or_default("retailer_item_id", "id_01"); ?>",
   "name":"Facebook T-Shirt",
   "description":"Unisex Facebook T-shirt, Small",
-  "url":"https://example.org/facebook",
-  "image":"https://example.org/facebook.jpg",
+  "url":"<?php echo "http://fb-pixel-test.herokuapp.com".$_SERVER['REQUEST_URI']; ?>",
+  "image":"<?php echo "http://fb-pixel-test.herokuapp.com".$_SERVER['REQUEST_URI']; ?>",
   "brand":"facebook",
   "offers": [
     {
