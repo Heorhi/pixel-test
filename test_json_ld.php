@@ -31,6 +31,32 @@
   src="https://www.facebook.com/tr?id=<?php echo_param_or_default("pixel_id", "1318150291580859"); ?>&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Product",
+  "productID":"<?php echo_param_or_default("retailer_item_id", "id_01"); ?>",
+  "name":"Facebook T-Shirt",
+  "description":"Unisex Facebook T-shirt, Small",
+  "url":"https://example.org/facebook",
+  "image":"https://example.org/facebook.jpg",
+  "brand":"facebook",
+  "offers": [
+    {
+      "@type": "Offer",
+      "price": "7.99",
+      "priceCurrency": "USD",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  ],
+  "additionalProperty": [{
+    "@type": "PropertyValue",
+    "propertyID": "item_group_id",
+    "value": "fb_tshirts"
+  }]
+}
+</script>
 </head>
 <body>
 <div itemscope itemtype="">
