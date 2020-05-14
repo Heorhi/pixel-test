@@ -55,7 +55,22 @@
     "@type": "PropertyValue",
     "propertyID": "item_group_id",
     "value": "fb_tshirts"
-  }]
+  },
+  {
+    "@type": "PropertyValue",
+    "propertyID": "custom_label_0",
+    "value": "shirt custom 0"
+  },
+  {
+    "@type": "PropertyValue",
+    "propertyID": "custom_label_1",
+    "value": "shirt custom 1"
+  }],
+  "peopleAudience": {
+    "@type": "PeopleAudience",
+    "propertyID": "gender",
+    "value": "male"
+  }
 }
 </script>
 </head>
