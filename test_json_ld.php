@@ -68,8 +68,7 @@
   }],
   "peopleAudience": {
     "@type": "PeopleAudience",
-    "propertyID": "gender",
-    "value": "male"
+    "suggestedGender": "male"
   }
 }
 </script>
